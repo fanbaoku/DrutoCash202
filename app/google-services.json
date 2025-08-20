@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "213058007114",
+    "project_id": "fastcashgo718",
+    "storage_bucket": "fastcashgo718.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213058007114:android:b7a8714324d721b565b6b3",
+        "android_client_info": {
+          "package_name": "com.cash.ease.money.cashease"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIaVhU7Ae3UaiZpWB1PhefmppOS5zndI8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

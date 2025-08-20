@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="permission_request">অনুমতির অনুরোধ করুন</string>
+
+    <string name="enable_gps_dialog_title">আপনার অবস্থানের তথ্য চালু করুন।</string>
+    <string name="enable_gps_dialog_msg">এই ডিভাইসের আনুমানিক অবস্থান অ্যাক্সেস করার অনুমতি দেবেন?</string>
+    <string name="go">যাও</string>
+    <string name="service_team_whatsapp_msg">যদি কোনও অস্বাভাবিকতা দেখা দেয়, তাহলে দয়া করে WhatsAPP এর মাধ্যমে আমাদের সাথে যোগাযোগ করুন এবং আমরা আপনার জন্য এটি সমাধান করব।</string>
+    <string name="upgrade">সংস্করণ আপডেট করুন</string>
+    <string name="id_take_photo_title">লাইভ যাচাইকরণ</string>
+    <string name="id_take_photo_hint">আপনার মুখ ভিউফাইন্ডারে রাখুন এবং একটি ছবি তুলুন, দয়া করে এটি পরিষ্কার রাখুন।</string>
+    <string name="id_camera_title">কার্ড আপলোড করুন</string>
+    <string name="id_camera_hint">অনুগ্রহ করে আপনার সামনের এবং পিছনের কার্ডগুলি আপলোড করুন।</string>
+    <string name="select_language">আপনার ভাষা নির্বাচন করুন</string>
+    <string name="authorize">অনুমোদন করুন</string>
+    <string name="cancel">বাতিল করুন</string>
+    <string name="confirm">নিশ্চিত করুন</string>
+    <string name="grant_permission">অনুমতি দিন</string>
+    <string name="permission_spec_access">অ্যাক্সেস</string>
+    <string name="permission_spec_desc">ব্যবহারের সময়, আপনাকে আমাদের এই সংবেদনশীল তথ্য সংগ্রহের অনুমতি দিতে হবে, তবে আমরা কেবল আপনার সম্মতিতেই এটি সংগ্রহ করব।</string>
+</resources>

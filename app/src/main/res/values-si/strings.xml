@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="permission_request">අවසර ඉල්ලන්න</string>
+
+    <string name="enable_gps_dialog_title">කරුණාකර ඔබගේ ස්ථාන තොරතුරු ක්‍රියාත්මක කරන්න</string>
+    <string name="enable_gps_dialog_msg">මෙම උපාංගයේ ආසන්න ස්ථානයට ප්‍රවේශයට ඉඩ දෙන්නද?</string>
+    <string name="go">වෙත යන්න</string>
+    <string name="service_team_whatsapp_msg">අසාමාන්යතාවයක් තිබේ නම්, කරුණාකර WhatsAPP හරහා අප අමතන්න අපි ඔබ වෙනුවෙන් එය විසඳන්නෙමු</string>
+    <string name="upgrade">උත්ශ්‍රේණි කරන්න</string>
+    <string name="id_take_photo_title">මුහුණු හඳුනාගැනීම</string>
+    <string name="id_take_photo_hint">ඔබේ මුහුණ රාමුවට දමා වෙඩි තියන්න</string>
+    <string name="id_camera_title">කාඩ්පත උඩුගත කරන්න</string>
+    <string name="id_camera_hint">කරුණාකරලා ඔයාගේ ඉදිරිය සහ ආපහු NIC කාර්ඩ් එක ඇතුල් කරන්න</string>
+    <string name="select_language">භාෂාව තෝරන්න</string>
+    <string name="authorize">අවසර දෙන්න</string>
+    <string name="cancel">අවලංගු කරන්න</string>
+    <string name="confirm">තහවුරු කරන්න</string>
+    <string name="grant_permission">අවසර දෙන්න</string>
+    <string name="permission_spec_access">ප්රවේශය</string>
+    <string name="permission_spec_desc">භාවිතය අතරතුර, නයිජීරියා ණය ඔබට මෙම සංවේදී දත්ත සැපයීමට හෝ අපට එකතු කිරීමට ඉඩ දීමට අවශ්‍ය වේ, නමුත් එය භාවිත කළ හැක්කේ ඔබේ කැමැත්තෙන් පසුව පමණි</string>
+</resources>

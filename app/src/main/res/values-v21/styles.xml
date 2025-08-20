@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AssistantBase" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:buttonStyle">@style/AssistantButtonWithNoShadow</item>
+    </style>
+
+    <style name="AssistantButtonWithNoShadow" parent="android:Widget.Material.Button">
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+</resources>

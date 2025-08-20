@@ -1,0 +1,2 @@
+-keep class com.su.request.http.HttpVerifyResult { *; }
+-keep class com.su.request.http.HttpResult { *; }

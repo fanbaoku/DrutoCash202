@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- adjust -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- advertisingId -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <!-- firebase -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!--根据消息显示通知-->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- install referrer -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- BluetoothAdapter.getAddress() -->
+    <!--2024-12-03 10:14 范宝库(FS): 先不要加这个权限，能获取到啥就是啥就行-->
+    <!--<uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA"
+        tools:ignore="PermissionImpliesUnsupportedChromeOsHardware" />
+    <!-- 读取用户短信 -->
+    <uses-permission android:name="android.permission.READ_SMS"
+        tools:ignore="PermissionImpliesUnsupportedChromeOsHardware" />
+    <!-- 读写用户日历事件 -->
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" tools:node="remove" />
+    <permission android:name="com.cash.ease.money.cashease.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" tools:node="remove"/>
+    <uses-permission android:name="com.cash.ease.money.cashease.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" tools:node="remove" />
+
+    <queries>
+        <!-- facebook -->
+        <package android:name="com.facebook.katana"/>
+        <!-- whatsapp -->
+        <package android:name="com.whatsapp"/>
+        <!-- 微信 -->
+        <package android:name="com.tencent.mm"/>
+        <!-- 支付宝 -->
+        <package android:name="com.eg.android.AlipayGphone"/>
+        <!-- google play -->
+        <package android:name="com.android.vending"/>
+        <!-- Chrome H5打开浏览器时优先Chrome -->
+        <package android:name="com.android.chrome"/>
+
+        <intent>
+            <action android:name="*" />
+        </intent>
+        <intent>
+            <data android:mimeType="*/*" />
+        </intent>
+        <intent>
+            <data
+                android:host="*"
+                android:scheme="*" />
+        </intent>
+    </queries>
+    <application
+        android:name=".CashEaseApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AssistantToolbarTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:allowBackup,android:supportsRtl"
+        tools:targetApi="q">
+        <!-- facebook -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="${FACEBOOK_APP_ID}" />
+        <meta-data
+            android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled"
+            android:value="true" />
+        <meta-data
+            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+            android:value="true" />
+        <meta-data
+            android:name="com.facebook.sdk.AutoInitEnabled"
+            android:value="true" />
+        <!-- firebase -->
+        <meta-data
+            android:name="firebase_messaging_auto_init_enabled"
+            android:value="true" />
+
+        <meta-data
+            android:name="firebase_analytics_collection_enabled"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/color_accent" />
+        <!--启动页-->
+        <activity
+            android:name=".activity.InitialActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="cashease" />
+            </intent-filter>
+        </activity>
+        <!--主页-->
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/WhiteToolbarTheme"/>
+        <!--信息披露-->
+        <activity
+            android:name=".activity.RequirePermissionActivity"
+            android:exported="false"
+            android:theme="@style/WhiteToolbarTheme"/>
+        <activity android:name=".activity.NewPermissionActivity"/>
+        <activity android:name=".activity.PrivacyPolicyActivity"/>
+        <!--身份证拍照-->
+        <activity
+            android:name=".activity.CameraActivity"
+            android:exported="false"
+            android:theme="@style/BlackToolbarTheme"/>
+    </application>
+
+</manifest>

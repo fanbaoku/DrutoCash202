@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary_light">@android:color/white</color>
+    <color name="color_primary">@android:color/white</color>
+    <color name="color_primary_dark">@android:color/white</color>
+    <color name="color_accent">@color/color_primary_light</color>
+    <color name="main_background">#EEEEEE</color>
+
+    <color name="swipe_color_1">#5bd5b9</color>
+    <color name="swipe_color_2">#39BAA2</color>
+    <color name="swipe_color_3">#17A389</color>
+    <color name="swipe_color_4">#00735c</color>
+
+
+    <color name="progress_blue">#4586F3</color>
+    <color name="progress_red">#EB4334</color>
+    <color name="progress_yellow">#FBBD06</color>
+    <color name="progress_green">#35AA53</color>
+
+    <color name="major_button_color">#4CD07F</color>
+    <color name="permission_title_color">#2FCE00</color>
+    <color name="main_text">#333333</color>
+    <color name="waring_text">#CD0D00</color>
+    <color name="waring_background">#12FF5745</color>
+</resources>

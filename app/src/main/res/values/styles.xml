@@ -1,0 +1,99 @@
+<resources>
+
+    <style name="AssistantBase" parent="Theme.MaterialComponents.NoActionBar"/>
+
+    <style name="AssistantToolbarThemeBase" parent="AssistantBase">
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@android:color/white</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textIsSelectable">false</item>
+        <item name="android:windowBackground">@color/main_background</item>
+    </style>
+
+    <style name="AssistantToolbarTheme" parent="@style/AssistantToolbarThemeBase">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="toolbarStyle">@style/AssistantToolbarStyle</item>
+        <item name="navigationIcon">@drawable/ic_ab_back</item>
+        <!--TextView-->
+        <item name="android:textIsSelectable">false</item>
+    </style>
+
+    <style name="AssistantTransparent" parent="AssistantToolbarThemeBase">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AssistantSearchViewToolbar" parent="AssistantToolbarTheme">
+        <!--修改SearchView激活时颜色-->
+        <item name="colorControlNormal">@android:color/white</item>
+        <!--修改SearchView的光标颜色-->
+        <item name="colorAccent">@color/color_accent</item>
+    </style>
+    <!--白色主题-->
+    <style name="WhiteToolbarThemeBase" parent="@style/AssistantToolbarTheme">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <!--        <item name="navigationIcon">@drawable/toolbar_black_back</item>-->
+        <item name="colorAccent">#5AC7CC</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+    </style>
+
+    <style name="WhiteToolbarTheme" parent="WhiteToolbarThemeBase"/>
+    <!--白色主题-->
+    <style name="BlackToolbarThemeBase" parent="@style/AssistantToolbarTheme">
+        <item name="colorPrimary">@android:color/black</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+    </style>
+    <style name="BlackToolbarTheme" parent="BlackToolbarThemeBase"/>
+
+    <!--全屏-->
+    <style name="Fullscreen" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+    </style>
+    <!--Toolbar-->
+    <style name="AssistantToolBarTitleTextStyle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AssistantToolBarSubTitleTextStyle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="AssistantToolbarStyle" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">@style/AssistantToolBarTitleTextStyle</item>
+        <item name="subtitleTextAppearance">@style/AssistantToolBarSubTitleTextStyle</item>
+    </style>
+
+    <style name="AssistantMajorButton">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/button_major_default</item>
+    </style>
+
+    <!-- 自定义对话框主题 -->
+    <style name="CustomDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <!-- 按钮的文字颜色 -->
+        <item name="buttonBarPositiveButtonStyle">@style/CustomButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/CustomButtonStyle</item>
+    </style>
+
+    <!-- 自定义按钮样式 -->
+    <style name="CustomButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/main_text</item>
+        <item name="android:padding">14dp</item>
+    </style>
+</resources>

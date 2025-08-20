@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white">
+    <TextView
+        android:id="@+id/page_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Permission"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/main_text"
+        android:textSize="19sp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/main_text"
+                android:textSize="15sp"
+                android:text="SMS Information:"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/main_text"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:text="Purpose of obtaining SMS permissions:\n
+In order to better analyze the user's financial situation, more accurately evaluate the user's credit limit, push suitable loan products to users, continuously optimize our applications, and provide more suitable review strategies for more Tanzanian citizens who need funds.
+Scope of SMS access:\n
+FastCashGo responds to Google's policy on collecting user SMS, we strictly limit the scope of SMS access, and only obtain financial information involving the following financial fields:'salio','tsh','pesa','piga','malipo','mkopo','kutoka','tarehe','umepokea','mteja','tafadhali','Akaunti','imethibitishwa','Kumbukumbu','kulipa','TZS','yamepokelewa','lipa','umelipia','lako','betPawa'
+'loan','balance','VAT','account','Transaction','amount','received','fee','repayment','financial','paid'\nSMS data security:\n We will not share this data with any third party, the data will be uploaded to the server:\nhttps://apitz.ekascraddlemax.site and deleted regularly"
+                android:paddingBottom="15dp"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/main_text"
+                android:textSize="15sp"
+                android:text="Device:"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/main_text"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:text="We will obtain your device information. Collect and monitor specific information about your device including your device name, model, region and language settings, device identification code, device hardware and software information, status, usage habits, unique device identifiers like IMEI and serial number to uniquely identify the device and ensure that unauthorized devices are not to act on your behalf to prevent frauds.This will help us to identify your user portrait and preferences and to recommend the suitable products.You can rest assured that without your permission, we will not use this information for any non-compliant operations or provide it to third parties. We will upload it to a dedicated server: https://apitz.ekascraddlemax.site for encryption protection"
+                android:paddingBottom="15dp"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"/>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/access"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        app:backgroundTint="@null"
+        android:stateListAnimator="@null"
+        style="@style/AssistantMajorButton"
+        android:padding="0dp"
+        android:text="@string/permission_spec_access"
+        android:textSize="17sp" />
+</LinearLayout>

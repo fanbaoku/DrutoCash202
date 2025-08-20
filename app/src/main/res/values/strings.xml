@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="false">FastCashGo</string>
+    <string name="permission_request">Request permission</string>
+
+    <string name="enable_gps_dialog_title">Please turn on your location information</string>
+    <string name="enable_gps_dialog_msg">Allow access to this device\'s approximate location?</string>
+    <string name="go">Go</string>
+    <string name="service_team_whatsapp_msg">If there is an abnormality, please contact us via WhatsAPP and we will solve it for you</string>
+    <string name="upgrade">Update version</string>
+    <string name="id_take_photo_title">Live verification</string>
+    <string name="id_take_photo_hint">Please put your face into the viewfinder and take a photo, please keep it clear</string>
+    <string name="id_camera_title">Upload NIC card</string>
+    <string name="id_camera_hint">Please upload your front and back NIC cards</string>
+    <string name="select_language">Select your language</string>
+    <string name="authorize">Authorize</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="grant_permission">Grant permission</string>
+    <string name="permission_spec_access">Access</string>
+    <string name="permission_spec_desc">During use, you need to allow us to collect this sensitive information data, but we will only obtain it with your consent</string>
+</resources>

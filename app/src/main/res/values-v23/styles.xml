@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="WhiteToolbarTheme" parent="WhiteToolbarThemeBase">
+        <item name="android:windowLightStatusBar">true</item><!--控制状态栏文字和图标的颜色,避免与状态栏背景冲突。低版本中状态栏不要设置为白色 v23+ -->
+    </style>
+    <style name="BlackToolbarTheme" parent="BlackToolbarThemeBase">
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

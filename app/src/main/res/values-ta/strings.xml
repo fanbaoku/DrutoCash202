@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="permission_request">அனுமதிகளை கோருங்கள்</string>
+
+    <string name="enable_gps_dialog_title">உங்கள் இருப்பிடத் தகவலை இயக்கவும்</string>
+    <string name="enable_gps_dialog_msg">இந்தச் சாதனத்தின் தோராயமான இருப்பிடத்திற்கான அணுகலை அனுமதிக்கவா?</string>
+    <string name="go">செல்க</string>
+    <string name="service_team_whatsapp_msg">ஒரு அசாதாரணம் இருந்தால், WhatsAPP வழியாக எங்களை தொடர்பு கொள்ளவும், நாங்கள் உங்களுக்காக அதை தீர்ப்போம்</string>
+    <string name="upgrade">மேம்படுத்து</string>
+    <string name="id_take_photo_title">முக அங்கீகாரம்</string>
+    <string name="id_take_photo_hint">உங்கள் முகத்தை சட்டத்தில் வைத்து சுடவும்</string>
+    <string name="id_camera_title">கார்டை பதிவேற்றவும்</string>
+    <string name="id_camera_hint">தயவு செய்து உங்கள் முன் மற்றும் NIC சீட்டுகளை மீண்டும் ஏற்றுக</string>
+    <string name="select_language">மொழியைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="authorize">அங்கீகரிக்கவும்</string>
+    <string name="cancel">ரத்து செய்</string>
+    <string name="confirm">உறுதிப்படுத்தவும்</string>
+    <string name="grant_permission">அனுமதி கொடுங்கள்</string>
+    <string name="permission_spec_access">அணுகல்</string>
+    <string name="permission_spec_desc">பயன்படுத்தும் போது, நைஜீரியா லோன் இந்த முக்கியத் தரவை வழங்க வேண்டும் அல்லது எங்களைச் சேகரிக்க அனுமதிக்க வேண்டும், ஆனால் உங்கள் ஒப்புதலுக்குப் பிறகு மட்டுமே அதைப் பயன்படுத்த முடியும்</string>
+</resources>
