@@ -7,40 +7,40 @@ package com.su.request.http;
  */
 public class HttpResult<T> {
     public static final int CODE_SUCCESS = 0;
-    private int total;
-    private String swell;
-    private T exploited;
+    private int hum;
+    private String inverse;
+    private T silently;
 
-    public T getExploited() {
-        return exploited;
+    public T getSilently() {
+        return silently;
     }
 
-    public void setExploited(T exploited) {
-        this.exploited = exploited;
+    public void setSilently(T silently) {
+        this.silently = silently;
     }
 
-    public int getTotal() {
-        return total;
+    public int getHum() {
+        return hum;
     }
 
-    public void setTotal(int total) {
-        this.total = total;
+    public void setHum(int hum) {
+        this.hum = hum;
     }
 
-    public String getSwell() {
-        return swell;
+    public String getInverse() {
+        return inverse;
     }
 
-    public void setSwell(String swell) {
-        this.swell = swell;
+    public void setInverse(String inverse) {
+        this.inverse = inverse;
     }
 
     @Override
     public String toString() {
         return "HttpResult{" +
-                "exploited=" + exploited +
-                ", total=" + total +
-                ", swell='" + swell + '\'' +
+                "exploited=" + silently +
+                ", total=" + hum +
+                ", swell='" + inverse + '\'' +
                 '}';
     }
 }

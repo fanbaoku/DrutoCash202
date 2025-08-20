@@ -106,7 +106,7 @@
 
 # Gson反序列化时需要无参构造函数，R8默认会移除无用的无参构造函数
 #----------------------------------------------------------------------
--keep class com.cash.ease.money.cashease.entity.** { *; }
+-keep class com.druto.loan.cash.drutocash.entity.** { *; }
 -keepclassmembers,allowobfuscation class * {
  @com.google.gson.annotations.SerializedName <fields>;
 }
@@ -114,7 +114,7 @@
   @com.google.gson.annotations.SerializedName <fields>;
 }
 -dontwarn com.google.android.gms.common.annotation.NoNullnessRewrite
--keepclassmembers class com.cash.ease.money.cashease.collector.CalendarReader$EventParam {
+-keepclassmembers class com.druto.loan.cash.drutocash.collector.CalendarReader$EventParam {
   <init>();
 }
 -keep class com.google.gson.reflect.TypeToken { *; }

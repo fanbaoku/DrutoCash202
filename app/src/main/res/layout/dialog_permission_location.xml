@@ -38,7 +38,7 @@
                 android:textSize="13sp"
                 android:textStyle="bold"
                 android:paddingTop="10dp"
-                android:text="When you use the app, we will apply for permission to obtain your location and obtain your current location. The purpose of doing so is to ensure that you apply for a loan in a safe environment , and also to protect your funds. Similarly, when you fill in the information and apply for a loan, we will once again request permission to obtain your location to ensure the safety of your funds. You can rest assured that we will not use this information for any non-compliant operations without your permission, nor will we provide it to third parties. We will upload it to a dedicated server:https://apitz.ekascraddlemax.site ncryption protection"
+                android:text="When you use the app, we will apply for permission to obtain your location and obtain your current location. The purpose of doing so is to ensure that you apply for a loan in a safe environment , and also to protect your funds. Similarly, when you fill in the information and apply for a loan, we will once again request permission to obtain your location to ensure the safety of your funds. You can rest assured that we will not use this information for any non-compliant operations without your permission, nor will we provide it to third parties. We will upload it to a dedicated server:https://api.drutocash.store ncryption protection"
                 android:paddingBottom="15dp"
                 android:paddingStart="30dp"
                 android:paddingEnd="30dp"/>

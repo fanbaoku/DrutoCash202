@@ -16,10 +16,10 @@ android {
         resourceConfigurations += ['en', 'si', 'ta']
 
         // adjust
-        buildConfigField "String", "APP_TOKEN", "\"vjierv0iq3uo\""
+        buildConfigField "String", "APP_TOKEN", "\"hlpr4v7mybcw\""
 
         manifestPlaceholders = [
-                FACEBOOK_APP_ID    : "948205303854002"
+                FACEBOOK_APP_ID    : "1105152211063653"
         ]
 
         javaCompileOptions {
@@ -94,7 +94,7 @@ android {
         abortOnError false
         checkReleaseBuilds false
     }
-    namespace "com.cash.ease.money.cashease"
+    namespace "com.druto.loan.cash.drutocash"
 }
 
 //对于release包来说，这个任务不重要

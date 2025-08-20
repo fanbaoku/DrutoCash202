@@ -38,7 +38,7 @@ public abstract class BusinessFunction<T, E> implements Function<NetResponse<T>,
     private void getErrorCode(T response) {
         if (response instanceof HttpResult) {
             HttpResult<?> httpResult = (HttpResult<?>) response;
-            mErrorCode = httpResult.getTotal();
+            mErrorCode = httpResult.getHum();
         } else if (response instanceof JsonObject) {
             JsonObject jsonObject = (JsonObject) response;
             JsonElement codeElement = jsonObject.get("code");
@@ -55,7 +55,7 @@ public abstract class BusinessFunction<T, E> implements Function<NetResponse<T>,
     private void getErrorMessage(T response) {
         if (response instanceof HttpResult) {
             HttpResult<?> httpResult = (HttpResult<?>) response;
-            mErrorMessage = httpResult.getSwell();
+            mErrorMessage = httpResult.getInverse();
         } else if (response instanceof JsonObject) {
             JsonObject jsonObject = (JsonObject) response;
             JsonElement msgElement = jsonObject.get("msg");

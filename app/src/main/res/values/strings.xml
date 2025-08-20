@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name" translatable="false">FastCashGo</string>
+    <string name="app_name" translatable="false">Druto Cash</string>
     <string name="permission_request">Request permission</string>
 
     <string name="enable_gps_dialog_title">Please turn on your location information</string>

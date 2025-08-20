@@ -29,11 +29,11 @@ ext {
     jvmTarget = "17"
     compileSdkVersion = 35
     targetSdkVersion = 34
-    minSdkVersion = 21
+    minSdkVersion = 23
     buildToolsVersion = '35.0.0'
 
     versionName = '1.0.1'
-    versionCode = 1001
+    versionCode = 1
 
     okhttpVersion = '4.12.0'
 

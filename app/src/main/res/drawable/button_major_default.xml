@@ -5,9 +5,9 @@
     <!-- 渐变背景颜色 -->
     <gradient
         android:angle="0"
-        android:startColor="#C08239"
-        android:centerColor="#FECC93"
-        android:endColor="#C08039"
+        android:startColor="#004DE7"
+        android:centerColor="#4E98FF"
+        android:endColor="#004DE7"
         android:type="linear" />
 
     <!-- 设置圆角 -->

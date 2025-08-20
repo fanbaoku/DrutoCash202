@@ -19,9 +19,9 @@ public class HttpVerifyResult<T> extends HttpResult<T> {
     @Override
     public String toString() {
         return "HttpResult{" +
-                "data=" + getExploited() +
-                ", resCode=" + getTotal() +
-                ", error='" + getSwell() + '\'' +
+                "data=" + getSilently() +
+                ", resCode=" + getHum() +
+                ", error='" + getInverse() + '\'' +
                 ", expire='" + expire + '\'' +
                 '}';
     }

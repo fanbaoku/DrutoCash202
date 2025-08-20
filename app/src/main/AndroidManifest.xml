@@ -25,15 +25,15 @@
     <uses-permission android:name="android.permission.CAMERA"
         tools:ignore="PermissionImpliesUnsupportedChromeOsHardware" />
     <!-- 读取用户短信 -->
-    <uses-permission android:name="android.permission.READ_SMS"
-        tools:ignore="PermissionImpliesUnsupportedChromeOsHardware" />
+<!--    <uses-permission android:name="android.permission.READ_SMS"-->
+<!--        tools:ignore="PermissionImpliesUnsupportedChromeOsHardware" />-->
     <!-- 读写用户日历事件 -->
-    <uses-permission android:name="android.permission.READ_CALENDAR"/>
-    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+<!--    <uses-permission android:name="android.permission.READ_CALENDAR"/>-->
+<!--    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>-->
 
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" tools:node="remove" />
-    <permission android:name="com.cash.ease.money.cashease.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" tools:node="remove"/>
-    <uses-permission android:name="com.cash.ease.money.cashease.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" tools:node="remove" />
+    <permission android:name="com.druto.loan.cash.drutocash.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" tools:node="remove"/>
+    <uses-permission android:name="com.druto.loan.cash.drutocash.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" tools:node="remove" />
 
     <queries>
         <!-- facebook -->
@@ -62,7 +62,7 @@
         </intent>
     </queries>
     <application
-        android:name=".CashEaseApplication"
+        android:name=".DrutoCashApplication"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"

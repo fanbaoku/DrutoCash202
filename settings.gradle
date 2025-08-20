@@ -23,7 +23,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CashEase"
+rootProject.name = "DrutoCash"
 include ':app'
 include ':component'
 include ':request'
