@@ -29,9 +29,9 @@ public class OkHttpClientHelper extends OkHttpClient {
         OkHttpClient client = new OkHttpClient();
         Builder builder = client.newBuilder()
                 .protocols(Util.immutableListOf(Protocol.HTTP_1_1, Protocol.HTTP_2)) //just for http1.1
-                .connectTimeout(30L, TimeUnit.SECONDS)
-                .readTimeout(30L, TimeUnit.SECONDS)
-                .writeTimeout(30L, TimeUnit.SECONDS);
+                .connectTimeout(120L, TimeUnit.SECONDS)
+                .readTimeout(120L, TimeUnit.SECONDS)
+                .writeTimeout(120L, TimeUnit.SECONDS);
         if (BuildConfig.DEBUG) {
             builder.eventListenerFactory(new LoggingEventListener.Factory());
             HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
@@ -55,9 +55,9 @@ public class OkHttpClientHelper extends OkHttpClient {
         OkHttpClient downloadClient = new OkHttpClient();
         Builder downloadBuilder = downloadClient.newBuilder()
                 .protocols(Util.immutableListOf(Protocol.HTTP_1_1, Protocol.HTTP_2)) //just for http1.1
-                .connectTimeout(30L, TimeUnit.SECONDS)
-                .readTimeout(30L, TimeUnit.SECONDS)
-                .writeTimeout(30L, TimeUnit.SECONDS);
+                .connectTimeout(120L, TimeUnit.SECONDS)
+                .readTimeout(120L, TimeUnit.SECONDS)
+                .writeTimeout(120L, TimeUnit.SECONDS);
         downloadBuilder.addNetworkInterceptor(chain -> {
             Request request = chain.request();
             ProgressListenerConfig config = request.tag(ProgressListenerConfig.class);

@@ -105,6 +105,8 @@ class NewPermissionActivity: PermissionRequiredActivity(),
     override fun onClick(v: View) {
         val id = v.id
         if (id == R.id.access) {
+            setResult(RESULT_OK)
+            finish()
 //            mPresenter!!.request(mPermissionEntities)
 //            ActivityCompat.requestPermissions(
 //                this@NewPermissionActivity,
