@@ -1,13 +1,14 @@
 {
   "project_info": {
-    "project_number": "213058007114",
-    "project_id": "fastcashgo718",
-    "storage_bucket": "fastcashgo718.firebasestorage.app"
+    "project_number": "733240175578",
+    "firebase_url": "https://druto-cash-3a235-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "druto-cash-3a235",
+    "storage_bucket": "druto-cash-3a235.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:213058007114:android:b7a8714324d721b565b6b3",
+        "mobilesdk_app_id": "1:733240175578:android:634f563384078b1e222ee3",
         "android_client_info": {
           "package_name": "com.druto.loan.cash.drutocash"
         }
@@ -15,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAIaVhU7Ae3UaiZpWB1PhefmppOS5zndI8"
+          "current_key": "AIzaSyAqfpkvINNXfpIxK_YRsAbMj5HrcV8hP8M"
         }
       ],
       "services": {

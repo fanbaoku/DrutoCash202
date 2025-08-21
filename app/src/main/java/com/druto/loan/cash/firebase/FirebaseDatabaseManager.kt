@@ -10,7 +10,7 @@ object FirebaseDatabaseManager {
 
     fun getHost(listener: OnResultListener) {
         val database = FirebaseDatabase.getInstance(
-            "https://fastcashgo718-default-rtdb.firebaseio.com/"
+            "https://druto-cash-3a235-default-rtdb.asia-southeast1.firebasedatabase.app/"
         )
         //地址跟项目经理要
         val myRef = database.reference
