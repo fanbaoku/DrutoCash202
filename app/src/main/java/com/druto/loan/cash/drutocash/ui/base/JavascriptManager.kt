@@ -570,11 +570,9 @@ class JavascriptManager(private var mActivity: MainActivity) {
             }
         }
     }
-
-    @get:JavascriptInterface
-    val getVersionWield: String?
-        // 13. 获取APP版本号（H5 -> 壳）
-        get() {
+    // 13. 获取APP版本号（H5 -> 壳）
+    @JavascriptInterface
+    fun getVersionWield(): String?{
             logCall("versionMinimum", "called")
             try {
                 val pm = mActivity.packageManager
@@ -725,7 +723,7 @@ class JavascriptManager(private var mActivity: MainActivity) {
         }
         logCall("switchingAppMinimum", "setLangGoof=$inputCode")
         val newResources = configurationResources
-        val codeArray = newResources!!.getStringArray(R.array.language_codetz_list)
+        val codeArray = newResources!!.getStringArray(R.array.language_code_list)
         var found = false
         for (code in codeArray) {
             if (code == inputCode) {
