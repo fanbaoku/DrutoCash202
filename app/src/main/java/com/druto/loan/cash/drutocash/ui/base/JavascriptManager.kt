@@ -422,11 +422,11 @@ class JavascriptManager(private var mActivity: MainActivity) {
         logCall("calendarEventMinimum", "newId=$newId")
         return newId.toString()
     }
+    // 9. 选择联系人（H5 -> 壳）
+    @JavascriptInterface
+    fun selectContactPeople(): String{
+            System.out.println("11111111111111")
 
-    @get:JavascriptInterface
-    val selectContactPersonWield: String
-        // 9. 选择联系人（H5 -> 壳）
-        get() {
             logCall(
                 "contactsMinimum",
                 "called, thread=" + Thread.currentThread()
