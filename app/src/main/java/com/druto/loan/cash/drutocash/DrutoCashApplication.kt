@@ -69,7 +69,6 @@ class DrutoCashApplication : MultiDexApplication() {
     override fun onCreate() {
         super.onCreate()
         drutoCashApplication=this
-        sDebug = true
         BaseAppCompatActivity.sLogState = BuildConfig.DEBUG
         initSharedPreferences(this)
         init(this)
